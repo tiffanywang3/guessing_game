@@ -1,0 +1,52 @@
+body {
+	text-align: center;
+	padding: 100px;
+    background-image: url("/images/guessinggame.jpg");
+    background-size: cover;
+    background-position: center center;
+
+    background-attachment: fixed;
+}
+
+
+h1 {
+	font-size: 64px;
+	color: black;
+	padding-top: 20px;
+	margin-bottom:10px;
+	font-family:Helvetica;
+}
+p {
+	font-family:Helvetica;
+	color:black;
+}
+button{
+    box-shadow:inset 0px 1px 0px 0px #ffffff;
+    background-color:#ffffff;
+    border-radius:6px;
+    border:1px solid #dcdcdc;
+    display:inline-block;
+    cursor:pointer;
+    color:black;
+    font-family:Helvetica;
+    font-size:15px;
+    font-weight:bold;
+    padding:6px 24px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #ffffff;
+}
+input{
+    box-shadow:inset 0px 1px 0px 0px #ffffff;
+    background-color:#ffffff;
+    border-radius:6px;
+    border:1px solid #dcdcdc;
+    display:inline-block;
+    cursor:pointer;
+    color:black;
+    font-family:Helvetica;
+    font-size:15px;
+    font-weight:bold;
+    padding:6px 24px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #ffffff;
+}
