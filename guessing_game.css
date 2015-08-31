@@ -16,14 +16,39 @@ h1 {
 	margin-bottom:10px;
 	font-family:Helvetica;
 }
-p {
+h2 {
 	font-family:Helvetica;
 	color:black;
+    font-weight:bold;
 }
+
+.storedGuess{
+    margin:auto;
+    background-color: rgba(255,255,255,0.70);
+    height: 200px;
+    width: 300px;
+}
+
+.guesses{
+    list-style-type: none;
+    font-family:Helvetica;
+    color:black;
+    font-size: 20px;
+}
+
+.numGuesses{
+    margin:auto;
+    font-family:Helvetica;
+    color:black;
+    font-size: 25px;
+    font-weight:bold;
+    list-style-type: none;
+}
+
+
 button{
     box-shadow:inset 0px 1px 0px 0px #ffffff;
     background-color:#ffffff;
-    border-radius:6px;
     border:1px solid #dcdcdc;
     display:inline-block;
     cursor:pointer;
@@ -38,7 +63,6 @@ button{
 input{
     box-shadow:inset 0px 1px 0px 0px #ffffff;
     background-color:#ffffff;
-    border-radius:6px;
     border:1px solid #dcdcdc;
     display:inline-block;
     cursor:pointer;
